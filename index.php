@@ -11,12 +11,9 @@
 <title>Mini Project</title>
 
 <!-- Bootstrap core CSS -->
-<!-- Bootstrap core CSS -->
-<link href="../bootstrap-4.4.1/css/bootstrap.min.css" rel="stylesheet"
-	crossorigin="anonymous">
-<link
-	href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-	rel="stylesheet">
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+<link href="css/dashboard.css" rel="stylesheet">
 
 <meta name="theme-color" content="#563d7c">
 <style>
@@ -35,11 +32,11 @@
 	}
 }
 </style>
+
 <!-- Custom styles for this template -->
-<link href="../css/dashboard.css" rel="stylesheet">
 </head>
 <body>
-<div class="card" style="width : 450 px">
+<div class="card text-center" style="width : 500px">
   <div class="card-header bg-primary">Hi, Chalid</div>
   <div class="card-body">
   <div class="card-body text-center">
@@ -57,13 +54,9 @@
 </div>
 </body>
 
-
-<script src="../js/jquery-3.4.1.min.js"></script>
-<script
-	src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-	integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-	crossorigin="anonymous"></script>
-<script src="../bootstrap-4.4.1/js/bootstrap.min.js"></script>
-<script src="../js/swal.js"></script>
-<script src="../js/product-rest.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/product-rest.js"></script>
+<script src="js/swal.js"></script>
 </html>
